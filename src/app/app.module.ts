@@ -12,6 +12,7 @@ import { PortafolioComponent } from './pages/portafolio/portafolio.component';
 import { AcercadeComponent } from './pages/acercade/acercade.component';
 import { ItemComponent } from './pages/item/item.component';
 import { from } from 'rxjs';
+import { SearchComponent } from './pages/search/search.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { from } from 'rxjs';
     FooterComponent,
     PortafolioComponent,
     AcercadeComponent,
-    ItemComponent
+    ItemComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,

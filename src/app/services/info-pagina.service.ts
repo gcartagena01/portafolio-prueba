@@ -24,11 +24,8 @@ export class InfoPaginaService {
       // Leer el archivo JSON
       this.http.get('assets/data/data-pagina.json')
       .subscribe( (resp: InfoPagina ) => {
-
         this.info = resp;
         this.cargada = true;
-        console.log(resp);
-
       });
    }
 
@@ -37,10 +34,7 @@ export class InfoPaginaService {
       // Leer el archivo JSON
       this.http.get('https://angular-html-b5b94.firebaseio.com/equipo.json')
       .subscribe( (resp: any[]) => {
-
         this.equipo = resp;
-        console.log(resp);
-
       });
    }
 
